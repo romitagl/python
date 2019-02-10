@@ -3,6 +3,7 @@ Copyright (c) 2019 Gian Luigi Romita (romitagl@gmail.com)
 # Python Projects
 - find_faces_picture.py
 - find_faces_video.py
+- play_media.py
 
 ## find_faces_picture.py
 This python script takes as input param an image path and outputs the same
@@ -22,3 +23,9 @@ An OpenCV cascade is used for detecting faces:
 - Python 3.7.0
 - OpenCV Python 3.4.3.18
 
+## play_media.py
+Python media viewer - handles image or video types.
+Takes as input param a video or image path.
+### Technologies used:
+- Python 3.7.0
+- OpenCV Python 3.4.3.18
