@@ -4,6 +4,7 @@ Copyright (c) 2019 Gian Luigi Romita (romitagl@gmail.com)
 - find_faces_picture.py
 - find_faces_video.py
 - play_media.py
+- backup_mailbox.py
 
 ## find_faces_picture.py
 This python script takes as input param an image path and outputs the same
@@ -29,3 +30,11 @@ Takes as input param a video or image path.
 ### Technologies used:
 - Python 3.7.0
 - OpenCV Python 3.4.3.18
+
+## backup_mailbox.py
+Simple Python script to dump all emails in an IMAP mailbox.
+Supports iCloud, Gmail or a custom server.
+### Technologies used:
+- Python 2.7.5
+- IMAP protocol
+
