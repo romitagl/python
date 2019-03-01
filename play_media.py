@@ -31,7 +31,9 @@ def play_media(argv):
 
         cv2.imshow("Media player", image)
         # delay each frame display
-        cv2.waitKey(int(1000/fps))
+        k = cv2.waitKey(int(1000/fps)) & 0xFF
+        if k == 27: # ESC
+          sys.exit(0)
 
       media_capture.release()
   cv2.destroyAllWindows()
